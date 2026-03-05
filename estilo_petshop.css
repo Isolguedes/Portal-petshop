@@ -1,0 +1,142 @@
+body {                      /* Estiliza o corpo da página */
+  background: #fff9c4;      /* Define a cor de fundo (amarelo claro) */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte padrão */
+  font-size: 18px;          /* Define o tamanho base da fonte */
+  margin: 0;                /* Remove a margem externa padrão do navegador */
+  padding: 20px;            /* Cria espaçamento interno ao redor do conteúdo */
+}
+
+h2 {                        /* Estiliza todos os títulos h2 */
+  background: #4a148c;      /* Cor de fundo roxa escura */
+  color: white;             /* Cor do texto branca */
+  text-align: center;       /* Centraliza o texto */
+  padding: 20px;            /* Espaçamento interno do título */
+  border-radius: 10px;      /* Arredonda os cantos */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra suave ao redor */
+}
+
+ul.menu {                   /* Estiliza a lista com a classe menu */
+  background: #212121;      /* Fundo preto/cinza escuro */
+  padding: 15px;            /* Espaço interno */
+  list-style: none;         /* Remove os marcadores da lista */
+  text-align: left;         /* Alinha o menu à esquerda */
+  border-radius: 5px;       /* Arredonda levemente as bordas */
+}
+
+ul.menu li {                /* Estiliza cada item da lista */
+  display: inline;          /* Coloca os itens na horizontal */
+  margin-right: 25px;       /* Espaço entre os itens */
+}
+
+ul.menu li a {              /* Estiliza os links do menu */
+  color: #ffeb3b;           /* Cor amarela para o texto */
+  text-decoration: none;    /* Remove sublinhado */
+  text-transform: uppercase;/* Deixa o texto em maiúsculas */
+  font-weight: bold;        /* Texto em negrito */
+  font-size: 20px;          /* Tamanho da fonte maior */
+}
+
+ul.menu li a:hover {        /* Estilo ao passar o mouse */
+  color: white;             /* Muda a cor do texto para branco */
+  border-bottom: 2px solid white; /* Cria uma linha embaixo do link */
+}
+
+fieldset {                  /* Estiliza o fieldset do formulário */
+  border: 3px solid #4a148c;/* Borda roxa grossa */
+  border-radius: 15px;      /* Bordas arredondadas */
+  background: white;        /* Fundo branco */
+  padding: 25px;            /* Espaçamento interno */
+}
+
+legend {                    /* Estiliza o título do fieldset */
+  font-weight: bold;        /* Texto em negrito */
+  padding: 0 10px;          /* Espaçamento lateral */
+  color: #4a148c;           /* Cor roxa */
+}
+
+input#nome {                /* Estiliza o input com id nome */
+  width: 95%;               /* Largura quase total */
+  padding: 12px;            /* Espaço interno do campo */
+  font-size: 18px;          /* Tamanho do texto dentro do input */
+  border: 1px solid #ccc;   /* Borda cinza clara */
+  border-radius: 5px;       /* Bordas arredondadas */
+}
+
+#banner {                   /* Estiliza o elemento com id banner */
+  width: 100%;              /* Ocupa toda a largura do container */
+  height: auto;             /* Mantém a proporção da imagem */
+  border-radius: 15px;      /* Arredonda os cantos */
+  margin-bottom: 20px;      /* Espaço abaixo da imagem */
+}
+
+#rodape{
+  text-align:center; 
+  margin-top:30px; 
+  font-size:14px;	
+}
+
+/* ============================= */
+/* TABELA DE HORÁRIO DE FUNCIONAMENTO */
+/* ============================= */
+
+table.tabela-horario {              /* Estiliza a tabela principal */
+  margin: 40px auto;                /* Centraliza a tabela na página */
+  border-collapse: collapse;       /* Junta as bordas das células */
+  width: 70%;                      /* Largura da tabela */
+  font-family: Arial, sans-serif;  /* Fonte limpa */
+  font-size: 20px;                 /* Fonte maior para leitura */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Sombra para destaque */
+  background-color: #ffffff;       /* Fundo branco */
+}
+
+table.tabela-horario th {          /* Cabeçalhos da tabela */
+  background-color: #5e2b97;       /* Fundo roxo */
+  color: white;                    /* Texto branco */
+  padding: 14px;                   /* Espaço interno */
+  text-align: center;             /* Centraliza o texto */
+}
+
+table.tabela-horario td {          /* Células da tabela */
+  padding: 12px;                   /* Espaço interno */
+  text-align: center;             /* Centraliza o texto */
+  border: 1px solid #ddd;          /* Borda cinza clara */
+}
+
+/* Linhas alternadas para melhor leitura */
+table.tabela-horario tr:nth-child(even) {
+  background-color: #f5f0fb;
+}
+
+
+/* ============================= */
+/* COMPROVANTE DO PET            */
+/* ============================= */
+
+.comprovante {               /* Caixa do comprovante */
+  border: 2px solid purple;  /* Borda roxa */
+  padding: 20px;             /* Espaço interno */
+  margin-top: 20px;          /* Espaço acima */
+  background: white;         /* Fundo branco */
+  border-radius: 10px;       /* Cantos arredondados */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+.titulo-comprovante {        /* Título do comprovante */
+  color: purple;             /* Cor roxa */
+  margin-top: 0;             /* Remove espaço acima */
+}
+
+.botao-imprimir {            /* Botão de imprimir */
+  margin-top: 15px;          /* Espaço acima */
+  padding: 10px 20px;        /* Espaço interno */
+  background: #4a148c;       /* Fundo roxo */
+  color: white;              /* Texto branco */
+  border: none;              /* Remove borda padrão */
+  border-radius: 5px;        /* Cantos arredondados */
+  cursor: pointer;           /* Muda cursor para mão */
+  font-size: 16px;           /* Tamanho do texto */
+}
+
+.botao-imprimir:hover {      /* Efeito ao passar o mouse */
+  background: #6a1b9a;       /* Roxo mais claro */
+}
